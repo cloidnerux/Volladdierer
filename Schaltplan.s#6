@@ -6257,6 +6257,7 @@ Source: www.kingbright.com</description>
 <pinref part="Q14" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="63.5" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
+<junction x="203.2" y="63.5"/>
 </segment>
 </net>
 <net name="C_OUT" class="0">

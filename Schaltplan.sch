@@ -8128,8 +8128,6 @@ Source: www.kingbright.com</description>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="logo" deviceset="LOGO" device=""/>
-<part name="U$2" library="logo" deviceset="LOGO" device=""/>
 <part name="U$3" library="logo" deviceset="LOGO" device=""/>
 </parts>
 <sheets>
@@ -8260,10 +8258,10 @@ Source: www.kingbright.com</description>
 <junction x="60.96" y="96.52"/>
 <wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="101.6" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="Q15" gate="G$1" pin="G"/>
-<wire x1="200.66" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="60.96" y="101.6"/>
 <label x="86.36" y="129.54" size="1.778" layer="95"/>
+<pinref part="Q15" gate="G$1" pin="G"/>
+<wire x1="200.66" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">

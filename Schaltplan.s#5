@@ -6152,6 +6152,7 @@ Source: www.kingbright.com</description>
 <wire x1="48.26" y1="144.78" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="101.6" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
+<junction x="43.18" y="144.78"/>
 </segment>
 <segment>
 <pinref part="Q18" gate="G$1" pin="G"/>

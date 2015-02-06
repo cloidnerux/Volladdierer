@@ -7930,6 +7930,75 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="logo">
+<packages>
+<package name="LOGO">
+<polygon width="0.127" layer="1">
+<vertex x="-0.635" y="-1.905"/>
+<vertex x="-0.635" y="2.2225"/>
+<vertex x="-1.905" y="3.4925"/>
+<vertex x="-2.54" y="3.4925"/>
+<vertex x="-2.54" y="3.175"/>
+<vertex x="-1.27" y="1.905"/>
+<vertex x="-1.27" y="-1.5875"/>
+<vertex x="-2.54" y="-2.8575"/>
+<vertex x="-2.54" y="-3.175"/>
+<vertex x="-1.905" y="-3.175"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="0.635" y="-1.905"/>
+<vertex x="0.635" y="2.2225"/>
+<vertex x="1.905" y="3.4925"/>
+<vertex x="2.54" y="3.4925"/>
+<vertex x="2.54" y="3.175"/>
+<vertex x="1.27" y="1.905"/>
+<vertex x="1.27" y="-1.5875"/>
+<vertex x="2.54" y="-2.8575"/>
+<vertex x="2.54" y="-3.175"/>
+<vertex x="1.905" y="-3.175"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.5875" y="-0.635"/>
+<vertex x="1.5875" y="0.635"/>
+<vertex x="2.2225" y="1.27"/>
+<vertex x="2.8575" y="1.27"/>
+<vertex x="2.8575" y="0.9525"/>
+<vertex x="2.2225" y="0.3175"/>
+<vertex x="2.2225" y="-0.3175"/>
+<vertex x="2.8575" y="-0.9525"/>
+<vertex x="2.8575" y="-1.27"/>
+<vertex x="2.2225" y="-1.27"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-1.5875" y="-0.635"/>
+<vertex x="-1.5875" y="0.635"/>
+<vertex x="-2.2225" y="1.27"/>
+<vertex x="-2.8575" y="1.27"/>
+<vertex x="-2.8575" y="0.9525"/>
+<vertex x="-2.2225" y="0.3175"/>
+<vertex x="-2.2225" y="-0.3175"/>
+<vertex x="-2.8575" y="-0.9525"/>
+<vertex x="-2.8575" y="-1.27"/>
+<vertex x="-2.2225" y="-1.27"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="LOGO">
+<gates>
+</gates>
+<devices>
+<device name="" package="LOGO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8046,6 +8115,7 @@ Source: www.kingbright.com</description>
 <part name="P+22" library="supply1" deviceset="VCC" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="logo" deviceset="LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>

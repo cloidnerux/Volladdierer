@@ -8116,6 +8116,7 @@ Source: www.kingbright.com</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="logo" deviceset="LOGO" device=""/>
+<part name="U$2" library="logo" deviceset="LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
